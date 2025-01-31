@@ -1,17 +1,12 @@
 public class Operadores {
     public static void main(String[] args) {
-       int numero = 10;
-       //
-       numero++; // numero+1
-        System.out.println(numero); // 11
+        int valor = 10;
+        int valor2 = 11;
+        //parte do operador ternário
 
-        numero --;
-        System.out.println(numero); //10
+        String mensagem = valor == valor2 ?  String.format("O valor %d é igual ao valor %d", valor, valor2):String.format("O valor %d é diferente do valor %d", valor, valor2);
 
-        boolean variavel = true;
-        System.out.println(variavel);//true
-        variavel = !variavel;
-        System.out.println(variavel);//false
+        System.out.println(mensagem);
 
     }
 }
