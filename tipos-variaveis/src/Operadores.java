@@ -1,15 +1,17 @@
 public class Operadores {
     public static void main(String[] args) {
-        int numero = 5;
-        System.out.println(-numero); // -5
-        System.out.println(numero); // o resultado vai ser 5, pois o - não afetou a nossa variavel
+       int numero = 10;
+       //
+       numero++; // numero+1
+        System.out.println(numero); // 11
 
-        // Porém se eu fazer isso:
-        numero = -numero;
-        System.out.println(numero); // o resultado vai ser -5, pois o - afetou a nossa variavel
+        numero --;
+        System.out.println(numero); //10
 
-        // para tornar ele positivo novamente, basta fazer isso :
-        numero = numero*-1;
-        System.out.println(numero);
+        boolean variavel = true;
+        System.out.println(variavel);//true
+        variavel = !variavel;
+        System.out.println(variavel);//false
+
     }
 }
